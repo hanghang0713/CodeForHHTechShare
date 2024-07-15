@@ -1,0 +1,11 @@
+# 动生成的 UI 代码
+tools/udi-debug-gui/ui
+
+# 三方源文件
+tools/udi-debug-gui/src/contrib
+src/backends/mcu/hidapi
+
+# 以下文件在 Windows 和 Linux 下格式化结果不一样，忽略掉
+src/core/target_matcher_format.h
+tools/udi-debug-tool/event_log_aggregator.cpp
+tools/udi-debug-gui/logcollection/eventlog/event_log_reader.cpp

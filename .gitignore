@@ -30,3 +30,22 @@
 *.exe
 *.out
 *.app
+
+# build
+build/
+html/
+doc/html
+doc/example/bin
+doc/example/build
+doc/example/tools
+doc/example/include
+doc/example/lib
+tests/yidl
+tests/codegenerator/java
+tests/codegenerator/*.cs
+
+#cache
+.cache/
+
+#vscode
+.vscode/
